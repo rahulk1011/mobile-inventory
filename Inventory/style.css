@@ -1,0 +1,54 @@
+﻿body {
+    background-image:url("img/c.jpg");
+}
+
+#container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 246px;
+}
+
+#body {
+    background-color: rgba(52, 73, 94, 0.7);
+    width: auto;
+    border: solid;
+    border-color: navy;
+    border-width: 1px;
+}
+
+#head {
+    position: fixed;
+    top: 0;
+    background-color: #778899;
+    color: white;
+    font-family: Calibri;
+    font-size: 20px;
+    width: 79%;
+    height: 35px;
+    text-align: center;
+    padding: 10px 0px 1px 0px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: white;
+    font-family: Maiandra GD;
+}
+
+
+#table{
+    font-size: 20px;
+    font-family: Maiandra GD;
+    color: white;
+}
+
+#tablefooter{
+    font-family: Maiandra GD;
+    padding-top: 30px;
+    color: white;
+    height: 380px;
+}

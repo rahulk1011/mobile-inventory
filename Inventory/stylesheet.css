@@ -1,0 +1,103 @@
+﻿body {
+    background-image: url("img/a.jpg");
+}
+
+#container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 246px;
+}
+
+#body {
+    background-color: rgba(52, 73, 94, 0.95);
+    width: auto;
+    border: solid;
+    border-color: navy;
+    border-width: 1px;
+}
+
+#head {
+    position: fixed;
+    top: 0;
+    background-color: #778899;
+    color: white;
+    font-family: Calibri;
+    font-size: 20px;
+    width: 79%;
+    height: 35px;
+    text-align: center;
+    padding: 10px 0px 1px 0px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 75%;
+}
+
+li {
+    float: left;
+}
+
+li, a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 2px;
+    width: 100px;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: navy;
+}
+
+.active {
+    background-color: navy;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: white;
+    font-family: Maiandra GD;
+}
+
+p {
+    text-align: justify;
+    color: white;
+    font-family: Maiandra GD;
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+}
+
+#table{
+    font-size: 20px;
+    font-family: Maiandra GD;
+    color: white;
+}
+
+#tablefooter{
+    font-family: Maiandra GD;
+    color: red;
+    align-content: center;
+    padding-left: 500px;
+    padding-top: 20px;
+    height: 380px;
+}
+
+#banner{
+    font-family: Maiandra GD;
+    color: white;
+    font-size: larger;
+}
